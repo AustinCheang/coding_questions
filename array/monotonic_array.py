@@ -20,6 +20,7 @@ Sample output:
 
 
 def isMonotonic_1(array):
+    # Time: O(n) | Space: O(1)
     if len(array) <= 2:
         return True
 
@@ -45,6 +46,7 @@ def break_direction(direction, previous_num, current_num):
 
 
 def isMonotonic_2(array):
+    # Time: O(n) | Space: O(1)
     is_non_decrease = True
     is_non_increase = True
 
